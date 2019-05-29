@@ -2,6 +2,10 @@
 ## Motivation
 You are working on multiple React projects and have some shared components throughout them. In the event of a change, instead of having edit one component multiple times, you can have edit the component just once with a **monorepo** file structure.
 
+### Why Lerna with React?
+1) There is no need to publish to a private registry (such as npm)
+2) [Lerna](https://github.com/lerna/lerna) is highly popular (16k stars)
+
 ## File Structure
 ```
 packages
