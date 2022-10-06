@@ -1,6 +1,6 @@
 import React from "react";
 
-function TextBox() {
+function HDTextBox() {
   return React.createElement(
     "div",
     null,
@@ -8,4 +8,4 @@ function TextBox() {
   );
 }
 
-export { TextBox };
+export { HDTextBox };

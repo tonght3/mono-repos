@@ -1,6 +1,6 @@
 import React from "react";
 
-function TextSample() {
+function HDTextSample() {
   return React.createElement(
     "h1",
     null,
@@ -8,4 +8,4 @@ function TextSample() {
   );
 }
 
-export { TextSample };
+export { HDTextSample };
