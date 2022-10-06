@@ -3,8 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { printTest } from "common";
-import { TextBox } from "common";
-import { TextSample } from "common";
+import { HDTextSample, HDTextBox, HDInput } from "common";
 
 function App() {
   printTest();
@@ -15,8 +14,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <TextBox />
-        <TextSample />
+        <HDTextBox />
+        <HDTextSample />
+        <HDInput />
         <a
           className="App-link"
           href="https://reactjs.org"

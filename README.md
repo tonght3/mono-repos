@@ -23,7 +23,7 @@ The **webapp** folder is your React project.
 `yarn`
 2) cd into the **webapp** folder and run 
 `yarn`
-3) Go back to the root folder and run `lerna bootstrap`.  
+3) Go back to the root folder and run `yarn bootstrap`.  
    (This does symbolic linking between your packages to ensure that your dependencies across different folders can be detected.)
 4) cd into **common** folder and run `yarn transpile`.  
     (This script copies the build files into the **dist** folder)
