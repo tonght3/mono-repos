@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React-Lerna Example
 ## Motivation
 You are working on multiple React projects and have some shared components throughout them. In the event of a change, instead of having edit one component multiple times, you can have edit the component just once with a **monorepo** file structure.
@@ -39,3 +40,6 @@ This ensures that any imports from another project will import from this locatio
 
 ### Babel
 Babel plays an important role to **transpile** the JSX code into vanilla javascript code to be interpreted by the compiler. Hence, it is important to have your **babelrc** file.
+=======
+# mono-repos
+>>>>>>> ada5163 (Initial commit)
